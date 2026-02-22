@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Review Score</title>
+  <style>
+    body { font-family: Arial, sans-serif; width: 280px; padding: 12px; }
+    .title { font-size: 14px; margin-bottom: 8px; }
+    .score { font-size: 40px; font-weight: 700; line-height: 1; }
+    .label { margin-top: 6px; font-size: 14px; }
+    .meta { margin-top: 10px; font-size: 12px; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+    hr { border: none; border-top: 1px solid #ddd; margin: 10px 0; }
+  </style>
+</head>
+<body>
+  <div class="title">Amazon Review Consistency Score</div>
+  <div class="score" id="score">--</div>
+  <div class="label" id="label"></div>
+  <hr />
+  <div class="meta" id="meta">Open an Amazon product page.</div>
+  <script src="popup.js"></script>
+</body>
+</html>
